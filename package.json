@@ -1,6 +1,6 @@
 {
   "name": "@mrexodia/kilo-pi-provider",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "keywords": [
     "pi-package"
@@ -10,5 +10,9 @@
     "extensions": [
       "./kilo.ts"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrexodia/kilo-pi-provider.git"
   }
 }

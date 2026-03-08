@@ -1,16 +1,14 @@
 # kilo-pi-provider
 
-[Kilo](https://kilo.ai) provider extension for [Pi](https://pi.dev). Access 300+ AI models through the Kilo Gateway.
+Kilo provider extension for Pi. Access 300+ AI models through the Kilo Gateway.
 
 ## Prerequisites
 
-Install Pi (the coding agent CLI):
+Install [Pi](https://pi.dev) (the coding agent CLI):
 
 ```bash
 npm install -g @mariozechner/pi-coding-agent
 ```
-
-Create a free Kilo account at [kilo.ai](https://kilo.ai) (optional -- free models work without an account).
 
 ## Installation
 
@@ -26,12 +24,12 @@ Start Pi as usual:
 pi
 ```
 
-Free models are available immediately. To access all models, log in with your Kilo account:
+Free models are available immediately. To access all models, log in with your [Kilo](https://kilo.ai) account:
 
 ```
 /login
 ```
 
-This opens your browser for device authorization. Once approved, all models become available in the model selector (`ctrl+l`).
+This opens your browser for device authorization. Once approved, all models become available in the model selector (`Ctrl+L`).
 
 You can also set the `KILO_API_KEY` environment variable directly instead of using the login flow.
