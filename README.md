@@ -2,6 +2,11 @@
 
 Kilo provider extension for Pi. Access 300+ AI models through the Kilo Gateway.
 
+**Fork by:** [@ktappdev](https://github.com/ktappdev)  
+**Original:** [@mrexodia](https://github.com/mrexodia/kilo-pi-provider)
+
+**Fix included:** Resolves `400 developer role` error for OpenRouter/Kilo compatibility
+
 ## Prerequisites
 
 Install [Pi](https://pi.dev) (the coding agent CLI):
@@ -13,7 +18,7 @@ npm install -g @mariozechner/pi-coding-agent
 ## Installation
 
 ```bash
-pi install git:github.com/mrexodia/kilo-pi-provider
+pi install git:github.com/ktappdev/kilo-pi-provider
 ```
 
 ## Usage
