@@ -266,6 +266,7 @@ function mapOpenRouterModel(m: OpenRouterModel): ProviderModelConfig {
     },
     contextWindow: m.context_length,
     maxTokens: maxTokens,
+    compat: KILO_COMPAT,
   };
 }
 
@@ -321,6 +322,12 @@ const KILO_PROVIDER_CONFIG = {
     "X-KILOCODE-EDITORNAME": "Pi",
     "User-Agent": "pi-kilo-provider",
   },
+};
+
+// Kilo/OpenRouter compatibility settings
+const KILO_COMPAT = {
+  supportsDeveloperRole: false,  // Use "system" instead of "developer"
+  supportsReasoningEffort: true,  // Keep reasoning effort support
 };
 
 // =============================================================================
